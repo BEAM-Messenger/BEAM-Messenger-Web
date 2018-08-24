@@ -1,1 +1,18 @@
- 
+/* #################### */
+/*                      */
+/*    BEAM-Messenger    */
+/*   by Marvin Borner   */
+/*                      */
+/* #################### */
+
+/* This landing page has been Made by Marco Alexander Fischer. */
+/*         visit marcoalexanderfischer.de for more!            */
+
+/* ############################################################################################ */
+
+body, * {
+    text-align: center;
+    color: white;
+    background-color: gray;
+    font-family: Comfortaa;
+}
