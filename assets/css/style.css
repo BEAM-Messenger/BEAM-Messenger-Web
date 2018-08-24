@@ -12,7 +12,31 @@
 
 body, * {
     text-align: center;
-    color: white;
-    background-color: gray;
+    background-color: #282828;
     font-family: Comfortaa;
+}
+
+body {
+    margin-top: 10rem;
+}
+
+.Main-Content {
+    color: white;
+}
+
+.Social {
+    font-size: 35px;
+}
+
+a:visited {
+    color: white;
+}
+
+a {
+    color: white;
+    transition: .5s;
+}
+
+a:hover {
+    color: #1457c6;
 }
