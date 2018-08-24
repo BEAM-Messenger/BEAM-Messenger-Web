@@ -10,7 +10,7 @@
 
 /* ############################################################################################ */
 
-body, * {
+* {
     text-align: center;
     background-color: #282828;
     font-family: Comfortaa;
@@ -34,6 +34,7 @@ a:visited {
 
 a {
     color: white;
+    text-decoration: none;
     transition: .5s;
 }
 
