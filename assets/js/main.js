@@ -1,5 +1,5 @@
 $(document).ready(() => {
-    const fullPage = $(document).alton({
+    $(document).alton({
         fullSlideContainer: 'full',
         singleSlideClass: 'slide',
         useSlideNumbers: true,
