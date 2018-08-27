@@ -34,6 +34,7 @@ html, body {
 }
 
 .Main-Content {
+    margin: 0 86px;
     color: white;
 }
 
@@ -49,6 +50,10 @@ html, body {
     bottom: 20px;
     transform: translate(-50%, -50%);
     margin: 0 auto;
+}
+
+.About {
+    margin: 0 86px;
 }
 
 .AboutBox {
@@ -68,4 +73,10 @@ a {
 
 a:hover {
     color: #3E4DF0;
+}
+
+@media only screen and (max-width: 500px) {
+    #slide-numbers {
+        display: none;
+    }
 }
