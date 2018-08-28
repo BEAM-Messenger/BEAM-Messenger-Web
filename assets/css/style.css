@@ -96,3 +96,7 @@ a:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+#name {
+    font-size: 12px;
+}
