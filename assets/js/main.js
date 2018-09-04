@@ -7,6 +7,5 @@ $(document).ready(() => {
         slideNumbersColor: 'transparent',
         bodyContainer: 'pageWrapper',
     });
-
     $(".ScrollDown").click(() => $(".paginate:nth-of-type(2n)").click());
 });

@@ -279,8 +279,6 @@
             if (settings.useSlideNumbers) {
                 if (fadeInOut) {
                     $('#' + settings.slideNumbersContainer).fadeIn();
-                } else {
-                    $('#' + settings.slideNumbersContainer).fadeOut();
                 }
             }
         }
@@ -521,11 +519,16 @@
          * ============================================================================ */
         $.fn.scrollTo = function (element) {
             if (element !== last) {
-                $("body,html").stop(true, true).animate({
-                    scrollTop: $(element).offset().top
-                }, {
-                    duration: 375
-                });
+                try {
+                    $("body,html").stop(true, true).animate({
+                        scrollTop: $(element).offset().top
+                    }, {
+                        duration: 375
+                    });
+                } catch (e) {
+                    $(".paginate:first").click();
+                }
+
             } else {
                 $("body,html").stop(true, true).animate({
                     scrollTop: $(document).outerHeight() - windowHeight
