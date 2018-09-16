@@ -10,7 +10,7 @@
 * {
     text-align: center;
     background-color: #282828;
-    font-family: Comfortaa, serif;
+    font-family: Mukta, serif;
 }
 
 html, body {
@@ -82,7 +82,7 @@ a {
 }
 
 a:hover {
-    color: #3E4DF0;
+    color: #FB5D5E;
 }
 
 @media only screen and (max-width: 500px) {
@@ -117,6 +117,7 @@ a:hover {
     font-size: 12px;
 }
 
-.social-buttons {
-
+.logo-img {
+    width: 100%;
+    height: auto;
 }
