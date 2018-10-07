@@ -119,5 +119,6 @@ a:hover {
 
 .logo-img {
     width: 100%;
+    max-width: 60vw;
     height: auto;
 }
